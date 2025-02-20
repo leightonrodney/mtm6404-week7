@@ -1,0 +1,48 @@
+.products-list {
+    display: flex;
+    gap: 30px;
+}
+
+.product {
+    border: 1px solid #DEDEDE;
+    border-radius: 6px;
+    padding: 10px;
+    width: 260px;
+}
+
+.product h3, .product h4 {
+    margin: 0 0 10px 0;
+}
+
+.product span {
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.buy-btn {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 260px;
+    min-height: 50px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #223E65;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: #3666a5;
+    transition: 0.2s;
+}
